@@ -1,0 +1,1033 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/banner-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.firstContainerHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstContainerHeader img{
+    margin-top: 4.8%;
+    margin-left: 9.4%;
+    width: 5.8%;
+}
+
+.firstContainerHeader h3{
+    color: #fff;
+    letter-spacing: 0px;
+    font-size: 21px;
+    font-weight: 2;
+    font-family:   Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 6.6%;
+    margin-right: 10%;
+}
+/* -.-.-.-.-.-.-.-.--..-.-.-..--..--..-.-.--.-..-.-.--.-.-.-.-.-.-. */
+.secondContainerHeader  {
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* background-color: red; */
+    display: flex;
+    height: 99%;
+}
+
+.secondContainerHeader h1{
+    color: white;
+    font-size: 70px;
+    margin-left: 9%;
+    line-height: 72px;
+}
+
+.secondContainerHeader p{
+    opacity: .8;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 50;
+    margin-left: 9%;
+    color: #fff;
+    font-family:   Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.secondContainerHeader .botonHeader{
+    border-radius: 15rem;
+    color: #1a245f;
+    background-color: #00ffae;
+    width: 11%;
+    height: 45px;
+    margin-left: 9%;
+    margin-bottom: 30px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* main{
+    background-image: linear-gradient(168deg, #fff 55%, #00ffae 0);
+} */
+
+
+.cajaPrincipal{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.tituloH2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    margin-top: 4%;
+    font-size: 45px;
+}
+
+.containerCajas{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box p,h2{
+    opacity: .8;
+    line-height: 25px;
+}
+
+.cajalineacolor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: linear-gradient(168deg, #fff 35%, #00ffae 0);
+    height: 1000px;
+}
+
+.cajalineacolor img{
+    width: 480px;
+}
+
+.primerCaja{
+    display: flex;
+    justify-content: space-around;
+}
+
+.primerCaja img{
+    margin-right: 140px;
+
+}
+
+.cajaTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 9%;
+    height: 85%;
+    width: 45%;
+}
+
+.cajaTexto h2{
+    font-size: 45px;
+    font-weight: 790;
+    
+}
+.cajaTexto p {
+    opacity: .8;
+    line-height: 25px;
+}
+
+.cajaTexto .botonCajaTexto{
+    border-radius: 15rem;
+    color: #fff;
+    width: 25%;
+    height: 45px;
+    border-style: none;
+    background-color: #1a245f;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* .-.-.-.-..- */
+
+.primerCaja2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.cajaTexto2{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: 85%;
+    width: 45%;
+}
+
+.cajaTexto2 h2{
+    font-size: 45px;
+    font-weight: 790;
+    
+}
+.cajaTexto2 p {
+    opacity: .8;
+    line-height: 25px;
+}
+
+.primerCaja2 img{
+    margin-left:45px;
+}
+
+.cajaTexto2 .botonCajaTexto{
+    border-radius: 15rem;
+    color: #fff;
+    width: 25%;
+    height: 45px;
+    border-style: none;
+    background-color: #1a245f;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* .-.-.-.-.-.-..-.-.----..----.-.-.-.--.-.-.-.-.-.-..--.-.-.-.-.-.-.-. */
+.cajaPrecios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+    width: 100%;
+}
+.cajaPrecios .tituloPrecios{
+    margin-top: 125px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.todaslascajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+.boxPrecio{
+    margin: 1px;
+    height: 470px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxColor{
+    background-color: #1A2740;    
+    color: white;
+}
+
+
+.div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.boxPrecio .div p{ 
+    width: 100PX;
+    display: flex   ;
+    justify-content: end;
+    align-items: end;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.pe{
+    font-weight: 100;
+}
+
+.numero{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.boxPrecio .div h2{
+    display: flex;
+    align-items: end;
+}
+
+.boxPrecio .div {
+    height: 95px;
+}
+
+.textos{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+}
+
+.botoncajas{
+    background-color:white;
+    border-color: #1a245f;
+    color: #1a245f;
+    border-radius: 40px;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 800;
+    border-style: solid;
+}
+
+
+.botonmedio{
+    border-radius: 15rem;
+    color: #1a245f;
+    background-color: #00ffae;
+    width:  120px;
+    height: 45px;
+    margin-bottom: 10px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* -.---.-.-.---.-.--.-.-.-..-. */
+
+.compañias{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #edeff0;
+    width: 100%;
+    height: 200px;
+}
+
+.containerContact{
+    background-image: url(../img/contact-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactInfo{
+    height: 280px;
+    width: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+
+.contactInfo h2{
+    font-size: 45px;
+}
+
+footer{
+    height: 20vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+    width: 550px;
+}
+
+.nameEmail{
+    display: flex;
+    justify-content: space-between;
+}
+.cajanameEmail{
+    width: 50%;
+}
+#name, #email{
+    height: 40px;
+    width: 270px ;
+    margin-bottom: 30px;
+}
+
+.cajamensaje{
+    width: 100%;
+}
+
+#mensaje{
+    height: 100px;
+    width: 100%;
+}
+
+#mensaje,#name,#email{
+    background-color: transparent ;
+    border-radius: 7px;
+    border-color: #00ffae;
+}
+
+label{
+    color: #00ffae;
+
+}
+
+.BOTONCONTACT{
+    margin-top: 20px;
+    border-radius: 15rem;
+    color: #1a245f;
+    background-color: #00ffae;
+    width:100%;
+    height: 45px;
+    margin-bottom: 10px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+footer{
+    background-color: #192440;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.redesSociales{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+}
+
+.redesSociales img{
+    width: 35px;
+}
+
+.cajaPrecios{
+    margin-bottom: 150px;
+}
+@media (max-width:1279px){
+
+    .cajaPrecios{
+        margin-bottom: 200px;
+    }
+}
+@media (max-width: 920px){
+    header {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .firstContainerHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstContainerHeader img {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 15%;
+    }
+
+    .firstContainerHeader h3 {
+        margin-top: 10px;
+        margin-right: 0;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .secondContainerHeader h1 {
+        font-size: 50px;
+        margin-left: 5%;
+        line-height: 60px;
+    }
+
+    .secondContainerHeader p {
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 5%;
+    }
+
+    .secondContainerHeader .botonHeader {
+        width: 30%;
+        height: 40px;
+        margin-left: 5%;
+    }
+
+    .cajaPrincipal {
+        height: auto;
+    }
+
+    .tituloH2 {
+        font-size: 35px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .containerCajas {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box {
+        margin-bottom: 20px;
+    }
+
+    .cajalineacolor {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .primerCaja, .primerCaja2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primerCaja img, .primerCaja2 img {
+        margin: 20px 0;
+        width: 60%;
+    }
+
+    .cajaTexto, .cajaTexto2 {
+        width: 80%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .cajaTexto h2, .cajaTexto2 h2 {
+        font-size: 35px;
+    }
+
+    .cajaTexto .botonCajaTexto, .cajaTexto2 .botonCajaTexto {
+        width: 50%;
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    .cajaPrecios {
+        height: auto;
+    }
+
+    .tituloPrecios {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .todaslascajas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxPrecio {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .boxPrecio .div p {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .numero {
+        font-size: 70px;
+    }
+
+    .textos {
+        width: 100%;
+        line-height: 30px;
+    }
+
+    .botoncajas, .botonmedio {
+        width: 50%;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .compañias img {
+        width: 15%;
+    }
+
+    .containerContact {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .contactInfo {
+        width: 90%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .nameEmail {
+        flex-direction: column;
+    }
+
+    .cajanameEmail {
+        width: 100%;
+    }
+
+    #name, #email {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .BOTONCONTACT {
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .redesSociales {
+        margin-top: 20px;
+        width: 60%;
+        justify-content: space-around;
+    }
+
+    .redesSociales img {
+        width: 30px;
+    }
+    .imagenCompu{
+        width: 50px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .firstContainerHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstContainerHeader img {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 20%;
+    }
+
+    .firstContainerHeader h3 {
+        margin-top: 10px;
+        margin-right: 0;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .secondContainerHeader h1 {
+        font-size: 40px;
+        margin-left: 5%;
+        line-height: 50px;
+    }
+
+    .secondContainerHeader p {
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 5%;
+    }
+
+    .secondContainerHeader .botonHeader {
+        width: 40%;
+        height: 35px;
+        margin-left: 5%;
+    }
+
+    .cajaPrincipal {
+        height: auto;
+    }
+
+    .tituloH2 {
+        font-size: 30px;
+        height: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .containerCajas {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box {
+        margin-bottom: 20px;
+    }
+
+    .cajalineacolor {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .primerCaja, .primerCaja2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primerCaja img, .primerCaja2 img {
+        margin: 20px 0;
+        width: 70%;
+    }
+
+    .cajaTexto, .cajaTexto2 {
+        width: 90%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .cajaTexto h2, .cajaTexto2 h2 {
+        font-size: 30px;
+    }
+
+    .cajaTexto .botonCajaTexto, .cajaTexto2 .botonCajaTexto {
+        width: 60%;
+        height: 35px;
+        margin: 0 auto;
+    }
+
+    .cajaPrecios {
+        height: auto;
+    }
+
+    .tituloPrecios {
+        font-size: 30px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .todaslascajas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxPrecio {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .boxPrecio .div p {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .numero {
+        font-size: 60px;
+    }
+
+    .textos {
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .botoncajas, .botonmedio {
+        width: 60%;
+        height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .compañias img {
+        width: 20%;
+    }
+
+    .containerContact {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .contactInfo {
+        width: 95%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .form {
+        width: 95%;
+    }
+
+    .nameEmail {
+        flex-direction: column;
+    }
+
+    .cajanameEmail {
+        width: 100%;
+    }
+
+    #name, #email {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .cajamensaje {
+        width: 100%;
+    }
+
+    .BOTONCONTACT {
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .redesSociales {
+        margin-top: 20px;
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .redesSociales img {
+        width: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .firstContainerHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstContainerHeader img {
+        margin-top: 10px;
+        width: 30%;
+    }
+
+    .firstContainerHeader h3 {
+        margin-top: 5px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .secondContainerHeader {
+        padding: 0 10px;
+    }
+
+    .secondContainerHeader h1 {
+        font-size: 28px;
+        margin-left: 0;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .secondContainerHeader p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .secondContainerHeader .botonHeader {
+        width: 70%;
+        height: 35px;
+        margin: 10px auto;
+    }
+
+    .tituloH2 {
+        font-size: 24px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .containerCajas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .box img {
+        width: 100%;
+    }
+
+    .cajalineacolor {
+        padding: 20px 10px;
+    }
+
+    .primerCaja, .primerCaja2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primerCaja img, .primerCaja2 img {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .cajaTexto, .cajaTexto2 {
+        width: 90%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .cajaTexto h2, .cajaTexto2 h2 {
+        font-size: 24px;
+    }
+
+    .cajaTexto p, .cajaTexto2 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .cajaTexto .botonCajaTexto, .cajaTexto2 .botonCajaTexto {
+        width: 70%;
+        height: 35px;
+        margin: 20px auto;
+    }
+
+    .tituloPrecios {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .todaslascajas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxPrecio {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .boxPrecio .div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .numero {
+        font-size: 50px;
+    }
+
+    .textos {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .botoncajas, .botonmedio {
+        width: 70%;
+        height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .compañias {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .compañias img {
+        width: 50%;
+        margin: 10px 0;
+    }
+
+    .containerContact {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .contactInfo {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .nameEmail {
+        flex-direction: column;
+    }
+
+    .cajanameEmail {
+        width: 100%;
+    }
+
+    #name, #email {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cajamensaje {
+        width: 100%;
+    }
+
+    #mensaje {
+        width: 100%;
+    }
+
+    .BOTONCONTACT {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .redesSociales {
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .redesSociales img {
+        width: 25px;
+    }
+}
+
+
+
